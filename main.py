@@ -19,3 +19,5 @@ def hello_world():
     log.error("Error Log")
     print("Console write")
     return "<p>Hello, World!</p>"
+
+app.run(host='0.0.0.0', port=5000)
